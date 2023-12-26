@@ -172,7 +172,7 @@ nav.sticky .navbar-toggler {
   border-color: rgba(0, 0, 0, 0.1) !important;
 }
 nav.sticky .navbar-toggler-icon {
-  background-image: url("../img/ada.png") !important;
+  background-image: url("../asset/img/ada.png") !important;
 }
 nav.sticky .navbar-toggler-icon {
   display: inline-block;
