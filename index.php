@@ -99,7 +99,7 @@
         id="navbar"
       >
         <div class="container-fluid" id="navCont">
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand" href="#">
             <img src="./asset/img/ada.png" alt="" />
           </a>
           <button
