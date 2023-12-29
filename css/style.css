@@ -324,12 +324,38 @@ nav.sticky .navbar-toggler-icon {
 
 .scroll {
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  scrollbar-width:  none;
 }
 
 .card .card-body img {
   height: 15rem;
   width: auto;
+}
+
+.btn-collection{
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-collection button{
+  border-radius: 30px;
+  margin: auto;
+}
+
+.btn-collection button:hover{
+  background-color: #c9c3c3;
+}
+
+
+.btn-collection button a{
+  text-decoration: none;
+  color: #08090a;
+}
+
+.btn-collection button a:hover{
+  color: #fff;
 }
 
 /* location */
