@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Familjen+Grotesk:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;0,900;1,500;1,600;1,700;1,800&display=swap");
+
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+.font-familjen {
+  font-family: "Familjen Grotesk", sans-serif !important;
+}
+.font-castoro {
+  font-family: "Castoro", serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    /* background-color: bisque; */
+}
+
+.container-contact{
+    background-color: #fff;
+    margin: 3rem 0;
+}
+
+.row{
+    padding: 3rem;
+}
+
+.us{
+    padding: 3rem 6rem;
+}
+
+.us p{
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.logo img{
+    height: 3rem;
+
+}
+
+/* foem */
+.container-input{
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    padding: 2.3rem;
+}
+
+.container-input h3{
+    text-align: justify;
+    
+}
+
+.contact{
+    margin: 1rem 0;
+}
+
+.input p{
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.krim a button{
+    background: #000;
+    padding: 10px;
+    color: #fff;
+}
+
+@media screen and (max-width:321px) {
+    .row{
+        padding: 1rem 0;
+    }
+
+    .us{
+        padding: 0;
+    }
+
+    textarea{
+        width: 12rem;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    button{
+        font-size: 12px;
+    }
+
+    button svg {
+        height: 2rem;
+    }
+
+}

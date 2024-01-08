@@ -90,7 +90,7 @@ body {
     border-color: rgba(0, 0, 0, 0.1) !important;
   }
   .navbar .navbar-toggler-icon {
-    background-image: url("../img/matan_ai.png") !important;
+    background-image: url("../asset/img/ada.png") !important;
   }
   .navbar .navbar-toggler-icon {
     display: inline-block;
@@ -258,16 +258,16 @@ nav.sticky .navbar-toggler-icon {
 }
 
 /* collectin */
-.collection{
+.collection {
   padding: 3% 0 !important;
 }
 
 .garis-abu {
-    border-left: 1px solid rgba(55, 55, 55, 1);
+  border-left: 1px solid rgba(55, 55, 55, 1);
 }
 /* button */
 .item-ul ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .collection img {
@@ -283,7 +283,7 @@ nav.sticky .navbar-toggler-icon {
 }
 
 .item-left {
-    margin: 1rem 3rem ;
+  margin: 1rem 3rem;
 }
 
 .item-right {
@@ -304,3 +304,102 @@ nav.sticky .navbar-toggler-icon {
   width: auto;
 }
 
+/* copyright */
+.copyright p {
+  background-color: #08090a;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1025px) {
+  /* collection */
+  .top-cln {
+    display: grid;
+    margin: 1rem 0;
+  }
+  /* image */
+  .item-right .card-group .card img {
+    height: 10rem;
+    width: 8rem;
+  }
+
+  .garis-abu {
+    display: none;
+  }
+}
+
+/* RESPONSIVE  */
+@media screen and (max-width: 769px) {
+  /* banner */
+  .carousel-inner .carousel-item img {
+    height: 655px;
+    object-fit: cover;
+  }
+
+  .d-md-block {
+    margin-bottom: 185px;
+  }
+
+  /* footer */
+  .footer {
+    padding: 2px 28px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  /* banner */
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+
+  .carousel-caption p {
+    font-size: 15px;
+  }
+
+  /* collection */
+  .collection img {
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item-left{
+    margin: auto;
+  }
+
+  /* footer */
+  .footer .store {
+    margin: auto;
+  }
+
+  .footer .store .card-body {
+    margin: auto;
+  }
+
+  footer .copyright p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  /* collection */
+  .card .card-body img {
+    height: 8rem;
+  }
+
+  .card-body h5 {
+    font-size: 15px;
+  }
+
+  .card-body p {
+    font-size: 12px;
+  }
+
+  /* footer */
+  .garis-putih {
+    width: 103px;
+  }
+}

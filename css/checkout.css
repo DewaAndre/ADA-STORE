@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Familjen+Grotesk:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;0,900;1,500;1,600;1,700;1,800&display=swap");
+
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+.font-familjen {
+  font-family: "Familjen Grotesk", sans-serif !important;
+}
+.font-castoro {
+  font-family: "Castoro", serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.check {
+  position: static;
+  padding: 5rem;
+}
+
+body {
+  overflow-x: hidden;
+  background: rgba(217, 217, 217, 0.64);
+}
+
+.container {
+  background: #fffafa;
+  display: flex;
+}
+
+.image {
+  margin: 0 7rem;
+}
+
+.image img {
+  height: 40rem;
+  width: auto;
+}
+
+/* riview */
+.selection {
+  margin: 2rem 0;
+}
+
+.container-select {
+  padding: 5px;
+}
+
+.riview {
+  background: rgba(55, 55, 55, 1);
+  color: #fff;
+  width: 100%;
+  padding: 8px;
+  border-radius: 11px;
+}
+
+.form-select {
+  background-color: #373737;
+  color: #fff;
+  margin: 1rem 0;
+  padding: 8px;
+  border-radius: 11px;
+}
+
+/* button */
+.btn-container {
+  margin: 2rem 0;
+}
+
+.btn-container .btn {
+  background: rgba(55, 55, 55, 1);
+  font-size: 25px;
+  width: 384px;
+  height: 71px;
+  border-radius: 58px;
+}
+
+.btn-container .btn:hover {
+  background: rgb(95, 94, 94);
+  transition: 0.3s;
+}
+
+@media screen and (max-width:1285px) {
+  .container{
+    display: grid;
+  }
+  .image{
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .check{
+    padding: 5px;
+    margin: auto;
+  }
+
+  .image img{
+    height: 20rem;
+  }
+
+  .selection{
+    margin: auto;
+  }
+
+  .container-select{
+    width: 17rem;
+  }
+
+  .btn-container .btn{
+    width: 16rem;
+    font-size: 18px;
+  }
+}

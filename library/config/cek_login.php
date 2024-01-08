@@ -23,9 +23,9 @@ if (isset($_POST['submit'])) {
         $_SESSION['level'] = $data['level']; //simpan juga level sebagai penanda hak akses
         
         if ($data['level'] == 'user') {
-            header("Location:  ../../index.html");
+            header("Location:  ../../commponen/order.html");
         } else {
-            header("Location:  ../../index.html");
+            header("Location:  ../../commponen/order.html");
         }
         exit();
     } else {

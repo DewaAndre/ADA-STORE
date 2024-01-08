@@ -23,12 +23,12 @@ body {
 }
 
 .container {
-  max-width: 500px;
-  margin: 50px auto;
-  background-color: #FFFFFF;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  max-width: 656px;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+    padding: 30px 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
 h1 {
@@ -60,24 +60,28 @@ input[type="password"] {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
-.btn {
+.btn-regis {
+  height: 3rem;
   display: block;
-  width: 100%;
+  width: 20rem;
+  margin: 1rem  auto;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #0310c5;
+  background: #A6A6A6;
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
   cursor: pointer;
+  box-shadow: 0px 4px 20px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px
 }
-
-.btn:hover {
-  background-color: #000658;
+.btn-regis:hover{
+  background:#6c6868;
+  transition:0.5s;
 }
 
  p.error {
@@ -117,7 +121,7 @@ input[type="password"] {
                 }
             }
         ?>
-        <button type="submit" name="submit" class="btn">Login</button>
+        <button type="submit" name="submit" class="btn-regis">REGISTER</button>
       </form>
     </div>
   </body>
