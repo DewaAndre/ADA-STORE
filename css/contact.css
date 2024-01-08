@@ -72,7 +72,7 @@ body{
     color: #fff;
 }
 
-@media screen and (max-width:321px) {
+@media screen and (max-width:426px) {
     .row{
         padding: 1rem 0;
     }
